@@ -6,6 +6,10 @@ In this document, the instructions to set up an Apache APISIX Gateway in ARM dev
 
 This component is related to WP4 - T4.4, Security Services for the Fractal environment, and it satifies the cybersecurity requirements for the Fractal platform and Edge environments, by acting as a single-point access to the exposed services, controlling and routing the traffic through user-defined rules, and providing security plugins for Authentication, Authorization, certificates management, etc.
 
+![image](./files/iot_gateway_architecture.png)
+
+In the above diagram you can see the architecture and how the IoT Gateway component acts as a centralized security entrypoint for your Fractal Edge Nodes network, providing several security components and plugins that can be used to build a custom security infrastructure.
+
 ### Prerequisites
 
 * Docker Engine
